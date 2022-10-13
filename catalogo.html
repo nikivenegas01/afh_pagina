@@ -1,86 +1,154 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <title>Nicole Venegas - Hoja de Vida</title>
-        <meta charset="utf-8">
-        <meta name="description" content="Nicole Venegas - ">
-        <meta name="author" content="Nicole Venegas">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="css/estilos.css">
-    </head>
 
-    <body>
-        <div class="catalogos">
-            <div class="catalogo_taskpro_2018">
-                <a href="https://online.flippingbook.com/view/201524568/" class="fbo-embed" data-fbo-id="923abfeac4" data-fbo-ratio="3:2" data-fbo-lightbox="yes" data-fbo-width="100%" data-fbo-height="auto" data-fbo-version="1" style="max-width: 100%">Catalogo Task Pro 2018</a><script async defer src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=201524568"></script>
-                <h2>Catálogo TASK PRO 2018</h2>
-                <p>Task Pro, lo mejor en accesorios para la limpieza del hogar al alcance de un clic. Aca podras ver el catálogo completo de productos de limpieza Task en el año 2018, en lo que brinda gran calidad de productos para las mejores experiencias de limpieza.</p>
-                <a href="https://www.facebook.com/TASK-PRO-107929154729505/">Más información</a>
+<head>
+    <title>Catálogos | Away From Home</title>
+    <meta charset="utf-8">
+    <meta name="description"
+        content="Acá se puede encontrar los catálogos con los diferentes productos de proveedores de AFH Colombia">
+    <meta name="author" content="Nicole Venegas">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="jquery/jquery-ui.min.css">
+    <script src="jquery/external/jquery/jquery.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="jquery/jquery-ui.min.js"></script>
+    <script src="js/productos.js"></script>
+    <script src="js/all.min.js"></script>
+</head>
+
+<body>
+    <header class="cabezote">
+        <div class="contenedor">
+            <div class="logo">
+                <h2><a href="index.html"><img src="images/logo_afh.png"
+                            alt="Away From Home Colombia S.A.S, Soluciones Integrales institucionales"></a></h2>
             </div>
-            <div class="catalogo_task_2017">
-                <a href="https://online.flippingbook.com/view/201948103/" class="fbo-embed" data-fbo-id="8bea438894" data-fbo-ratio="3:2" data-fbo-lightbox="yes" data-fbo-width="100%" data-fbo-height="auto" data-fbo-version="1" style="max-width: 100%">Catalogo Task 2017</a><script async defer src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=201948103"></script>
-                <h2>Catálogo TASK 2017</h2>
-                <p>Task, lo mejor en accesorios para la limpieza del hogar “Juntos es mejor”.Catálogo de productos de limpieza Task en el año 2017, en lo que brinda gran calidad de productos como mopas, traperos, escobas, recogedores, baldes y mucho mas.</p>
-                <a class="catalogo-link-white" href="https://www.kipclin.com/marca/task.html">Más información</a>
+            <div class="menu_h" onclick="abrirMenu()">
+                <i class="fa-solid fa-bars hamburguer"></i>
             </div>
-            <div class="catalogo_task_arcoaseo">
-                <a href="https://online.flippingbook.com/view/202199757/" class="fbo-embed" data-fbo-id="ecc2fa6348" data-fbo-ratio="3:2" data-fbo-lightbox="yes" data-fbo-width="100%" data-fbo-height="auto" data-fbo-version="1" style="max-width: 100%">Catalogo Task Arcoaseo 2017</a><script async defer src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=202199757"></script>
-                <h2>Catálogo TASK ARCOASEO</h2>
-                <p>Task Arcoaseo, el mejor en accesorios para la limpieza. El catalogo Task 2017 brinda informacion sobre traperos, escobas, cepillos y recogedores. A buen precio y calidad! Si te interesa algun producto no dudes en llama y pedir Task Arcoaseo.</p>
-                <a href="https://www.facebook.com/TASK-PRO-107929154729505/">Más información</a>
+            <nav class="bmenu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="fabricantes.html">Fabricantes</a></li>
+                    <li><a class="actual" href="catalogo.html">Catálogos</a></li>
+                    <li><a href="clientes.html">Clientes</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="hero">
+        <img src="images/foto_herocatalogo.jpg" alt="AFH, Nuestros Fabricantes y Proveedores">
+    </div>
+    <div class="catalogos">
+        <div class="catalogo_taskpro_2018">
+            <a href="https://online.flippingbook.com/view/201524568/" class="fbo-embed" data-fbo-id="923abfeac4"
+                data-fbo-ratio="3:2" data-fbo-lightbox="yes" data-fbo-width="100%" data-fbo-height="auto"
+                data-fbo-version="1" style="max-width: 100%">Catalogo Task Pro 2018</a>
+            <script async defer
+                src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=201524568"></script>
+            <h2>Catálogo TASK PRO 2018</h2>
+            <p>Task Pro, lo mejor en accesorios para la limpieza del hogar al alcance de un clic. Aca podras ver el
+                catálogo completo de productos de limpieza Task en el año 2018, en lo que brinda gran calidad de
+                productos para las mejores experiencias de limpieza.</p>
+            <a href="https://www.facebook.com/TASK-PRO-107929154729505/">Más información</a>
+        </div>
+        <div class="catalogo_task_2017">
+            <a href="https://online.flippingbook.com/view/201948103/" class="fbo-embed" data-fbo-id="8bea438894"
+                data-fbo-ratio="3:2" data-fbo-lightbox="yes" data-fbo-width="100%" data-fbo-height="auto"
+                data-fbo-version="1" style="max-width: 100%; max-height: 800px;">Catalogo Task 2017</a>
+            <script async defer
+                src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=201948103"></script>
+            <h2>Catálogo TASK 2017</h2>
+            <p>Task, lo mejor en accesorios para la limpieza del hogar “Juntos es mejor”.Catálogo de productos de
+                limpieza Task en el año 2017, en lo que brinda gran calidad de productos como mopas, traperos, escobas,
+                recogedores, baldes y mucho mas.</p>
+            <a class="catalogo-link-white" href="https://www.kipclin.com/marca/task.html">Más información</a>
+        </div>
+        <div class="catalogo_task_arcoaseo">
+            <a href="https://online.flippingbook.com/view/202199757/" class="fbo-embed" data-fbo-id="ecc2fa6348"
+                data-fbo-ratio="3:2" data-fbo-lightbox="yes" data-fbo-width="100%" data-fbo-height="auto"
+                data-fbo-version="1" style="max-width: 100%">Catalogo Task Arcoaseo 2017</a>
+            <script async defer
+                src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=202199757"></script>
+            <h2>Catálogo TASK ARCOASEO</h2>
+            <p>Task Arcoaseo, el mejor en accesorios para la limpieza. El catalogo Task 2017 brinda informacion sobre
+                traperos, escobas, cepillos y recogedores. A buen precio y calidad! Si te interesa algun producto no
+                dudes en llama y pedir Task Arcoaseo.</p>
+            <a href="https://www.facebook.com/TASK-PRO-107929154729505/">Más información</a>
+        </div>
+        <div class="catalogo_sanitisu">
+            <a href="https://online.flippingbook.com/view/201680064/" class="fbo-embed" data-fbo-id="cba81389a5"
+                data-fbo-ratio="3:2" data-fbo-lightbox="yes" data-fbo-width="100%" data-fbo-height="auto"
+                data-fbo-version="1" style="max-width: 100%">Catalogo Sanitisu 2016</a>
+            <script async defer
+                src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=201680064"></script>
+            <h2>Catálogo Papeles Sanitisu</h2>
+            <p>Sanitisu es la marca Institucional de Papeles Nacionales S.A. que ofrece productos de calidad
+                especializados en alto rendimiento, absorción y resistencia. Acá podrás observar el catálogo que incluye
+                higiénicos, toallas, servilletas y faciales. </p>
+            <a class="catalogo-link-white" href="https://sanitisu.com/">Más información</a>
+        </div>
+        <div class="catalogo_oma">
+            <a href="https://online.flippingbook.com/view/201963508/" class="fbo-embed" data-fbo-id="126981cd6a"
+                data-fbo-ratio="3:2" data-fbo-lightbox="yes" data-fbo-width="100%" data-fbo-height="auto"
+                data-fbo-version="1" style="max-width: 100%">Catálogo OMA</a>
+            <script async defer
+                src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=201963508"></script>
+            <h2>Catálogo OMA</h2>
+            <p>OMA es la empresa líder en ventas de café y bebidas especiales a base de café. Acá podrás observar sus
+                diferentes productos empacados disponibles a la venta para todos sus clientes, con productos innovadores
+                siempre teniendo como eje central el compromiso de bienestar social y cuidado del medio ambiente.</p>
+            <a href="https://www.cafeoma.com/">Más información</a>
+        </div>
+    </div>
+    <div class="catalogo-stats contenedor">
+        <div class="fila">
+            <div class="columna">
+                <h4>5,0000</h4>
+                <p>Ventas</p>
             </div>
-            <div class="catalogo_sanitisu">
-                <a href="https://online.flippingbook.com/view/201680064/" class="fbo-embed" data-fbo-id="cba81389a5" data-fbo-ratio="3:2" data-fbo-lightbox="yes" data-fbo-width="100%" data-fbo-height="auto" data-fbo-version="1" style="max-width: 100%">Catalogo Sanitisu 2016</a><script async defer src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=201680064"></script>
-                <h2>Catálogo Papeles Sanitisu</h2>
-                <p>Sanitisu es la marca Institucional de Papeles Nacionales S.A. que ofrece productos de calidad especializados en alto rendimiento, absorción y resistencia. Acá podrás observar el catálogo que incluye higiénicos, toallas, servilletas y faciales. </p>
-                <a class="catalogo-link-white" href="https://sanitisu.com/">Más información</a>
+            <div class="columna">
+                <h4>50+</h4>
+                <p>Clientes</p>
             </div>
-            <div class="catalogo_oma">
-                <a href="https://online.flippingbook.com/view/201963508/" class="fbo-embed" data-fbo-id="126981cd6a" data-fbo-ratio="3:2" data-fbo-lightbox="yes" data-fbo-width="100%" data-fbo-height="auto" data-fbo-version="1" style="max-width: 100%">Catálogo OMA</a><script async defer src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=201963508"></script>
-                <h2>Catálogo OMA</h2>
-                <p>OMA es la empresa líder en ventas de café y bebidas especiales a base de café. Acá podrás observar sus diferentes productos empacados disponibles a la venta para todos sus clientes, con productos innovadores  siempre teniendo como eje central el compromiso de bienestar social y cuidado del medio ambiente.</p>
-                <a href="https://www.cafeoma.com/">Más información</a>
+            <div class="columna">
+                <h4>29</h4>
+                <p>Fabricantes</p>
+            </div>
+            <div class="columna">
+                <h4>5</h4>
+                <p>Catálogos</p>
             </div>
         </div>
-        <div class="catalogo-stats contenedor">
-            <div class="fila">
-                <div class="columna">
-                    <h4>5,0000</h4>
-                    <p>Ventas</p>
-                </div>
-                <div class="columna">
-                    <h4>50+</h4>
-                    <p>Clientes</p>
-                </div>
-                <div class="columna">
-                    <h4>29</h4>
-                    <p>Fabricantes</p>
-                </div>
-                <div class="columna">
-                    <h4>5</h4>
-                    <p>Catálogos</p>
-                </div>
-            </div>
+    </div>
+    <footer>
+        <div>
+            <p><strong>Away From Home Colombia SAS</strong></p>
+            <p>Calle 91 No. 59-69<br>
+                Tel: (1) 622-2743 <br>
+                Bogotá, Colombia
+            </p>
         </div>
-        <footer>
-            <div>
-                <p><strong>Away From Home Colombia SAS</strong></p>
-                <p>Calle 91 No. 59-69<br>
-                    Tel: (1) 622-2743 <br>
-                    Bogotá, Colombia
-                </p>
+        <div>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/afhcolombia/?hl=en"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.facebook.com/afhcolombiasas/"><i class="bi bi-instagram"></i></a>
+                <a href="https://twitter.com/?lang=en"><i class="bi bi-twitter"></i></a>
             </div>
-            <div>
-                <div class="social-icons">
-                    <a href="https://www.instagram.com/afhcolombia/?hl=en"><i class="bi bi-facebook"></i></a>
-                    <a href="https://www.facebook.com/afhcolombiasas/"><i class="bi bi-instagram"></i></a>
-                    <a href="https://twitter.com/?lang=en"><i class="bi bi-twitter"></i></div></a>
-                <p class="footer-subtitle">Diseñado por Nicole Venegas - María José Esteban <br>Away From Home ©</p>
-            </div>
-        </footer>
+            <p class="footer-subtitle">Diseñado por Nicole Venegas - María José Esteban <br>Away From Home ©</p>
+        </div>
+    </footer>
+    <script>
+        function abrirMenu() {
+            $(".bmenu").toggleClass("bmenu_visible")
+        }
 
-    </body>
+
+    </script>
+</body>
+
 </html>
-
-

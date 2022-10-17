@@ -228,7 +228,7 @@ h3 {
     padding-bottom: 40px;
 }
 
-.opinion h2 {
+.opinionesdelcliente {
     text-transform: uppercase;
     text-align: center;
     padding-top: 60px;
@@ -238,11 +238,15 @@ h3 {
 }
 
 .caja-slide {
-    margin: 45px 60px;
+    margin: 45px 60px auto;
     padding: 40px;
     background-color: white;
     font-family: "DMSans-Regular";
-    height: 32vh;
+    font-size: 100%;
+    float: left;
+}
+ul #lightSlider2 {
+    display: flex;
 }
 
 /* pagina clientes */
@@ -467,14 +471,6 @@ footer .social-icons a:hover {
     background-color: #579e97;
 }
 
-.nuestrosproductos>h2 {
-    text-align: center;
-    padding: 24px 0;
-    background-color: white;
-    margin: 0;
-    font-family: "DMSans-Bold";
-}
-
 #accSecciones {
     padding-bottom: 2px;
     font-family: "DMSans-Regular";
@@ -572,7 +568,17 @@ h3.ui-state-active>span {
     padding: 50px 0;
     font-family: "DMSans-Bold";
 }
-
+h1 {
+    text-align: center;
+    padding: 30px 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: "DMSans-Bold";
+    }
+.nuestrosproductosh1 {
+    background-color: white;
+}
 .contactenos_informacion {
     padding: 15px 0;
     font-family: "DMSans-Regular";
@@ -1065,7 +1071,6 @@ h3.ui-state-active>span {
     .texto1 {
         width: 100%;
     }
-
     .cuadros1-2 {
         display: flex;
         width: 100%;
@@ -1081,10 +1086,6 @@ h3.ui-state-active>span {
     .cuadro3,
     .cuadro4 {
         width: 50%;
-    }
-
-    .caja-slide {
-        height: 35vh;
     }
 
     .slide-tab1,
@@ -1281,7 +1282,6 @@ h3.ui-state-active>span {
     .texto1 {
         width: 65%;
     }
-
     .cuadro2,
     .cuadro3,
     .cuadro4 {
@@ -1291,10 +1291,6 @@ h3.ui-state-active>span {
     .caja-text {
         width: 70%;
         margin: 0 30px;
-    }
-
-    .caja-slide {
-        height: 45vh;
     }
 
     .fabricantes p {
@@ -1373,11 +1369,7 @@ h3.ui-state-active>span {
     }
 }
 
-@media screen and (min-width: 1150px) {
-    .caja-slide {
-        height: 38vh;
-    }
-}
+
 
 
 /* celular*/

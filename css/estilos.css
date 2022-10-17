@@ -272,10 +272,11 @@ ul #lightSlider2 {
     font-family: "DMSans-Medium";
 }
 
-.clientes span {
+.clientes  p.subtitulo{
     font-family: "DMSans-Regular";
     font-size: 12pt;
     text-align: center;
+    display: block;
 }
 
 .clientes img {
